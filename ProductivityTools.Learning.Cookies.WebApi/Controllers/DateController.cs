@@ -23,7 +23,7 @@ namespace ProductivityTools.Learning.Cookies.WebApi.Controllers
 
         [HttpGet]
         [Route("Image")]
-        public IActionResult Get(string fileName)
+        public IActionResult Get()
         {
             var ookies = Request.Cookies;
             string value = string.Empty;
